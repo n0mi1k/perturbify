@@ -4,7 +4,8 @@ perturbify is a Tensorflow adversarial machine learning attack toolkit to add pe
 **NOTE:** In this toolkit, fgsm (targeted) and deepfool attacks have been implemented
 
 ## Usage
-Our Tensorflow surrogate model is trained using Tensorflow and Keras. Perturbify takes in an input image and outputs the perturbed image.   
+Our Tensorflow surrogate model with 3 classifications is trained using Tensorflow and Keras with. Perturbify takes in an input image and outputs the perturbed image. 
+
 `check.py` is automatically invoked once the adversarial image is generated to display the predictions before and after perturbations are added.
 
 ```
