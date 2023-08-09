@@ -21,10 +21,10 @@ Flags:
 ```
 
 **FGSM Options:** <epsilon (float), classification index to perturb towards (int)>  
-`python perturbify.py -i image.jpg -m surrogate_model.h5 -a fgsm -o  "0.2 2"`  
+`python perturbify.py -i image.jpg -m surrogate_model.h5 -a fgsm -o "0.2 2"`  
 
 **Deepfool Options:** <max iterations (int), perturbations multiplier (int)>  
-`python perturbify.py -i image.jpg -m surrogate_model.h5 -a deepfool -o  "50 1"`
+`python perturbify.py -i image.jpg -m surrogate_model.h5 -a deepfool -o "50 1"`
 
 **NOTE:** Some attributes can only be modified on the script such as `num_classes`, read the added comments
 
