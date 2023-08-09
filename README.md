@@ -4,7 +4,7 @@ perturbify is a Tensorflow adversarial machine learning attack toolkit to add pe
 **NOTE:** In this toolkit, fgsm (targeted) and deepfool attacks have been implemented
 
 ## Usage
-Our Tensorflow surrogate model with 3 classifications is trained using Tensorflow and Keras with. Perturbify takes in an input image and outputs the perturbed image. 
+Our Tensorflow surrogate model with 3 classifications is trained using Tensorflow and Keras. Perturbify takes in an input image and outputs the perturbed image. 
 
 `check.py` is automatically invoked once the adversarial image is generated to display the predictions before and after perturbations are added.
 
@@ -20,10 +20,10 @@ Flags:
   -h, --help                Display the help page
 ```
 
-FGSM Options: <epsilon (float), classification index to perturb towards (int)>  
+**FGSM Options:** <epsilon (float), classification index to perturb towards (int)>  
 `python perturbify.py -i image.jpg -m surrogate_model.h5 -a fgsm -o  "0.2 2"`  
 
-Deepfool Options: <max iterations (int), perturbations multiplier (int)>  
+**Deepfool Options:** <max iterations (int), perturbations multiplier (int)>  
 `python perturbify.py -i image.jpg -m surrogate_model.h5 -a deepfool -o  "50 1"`
 
 **NOTE:** Some attributes can only be modified on the script such as `num_classes`, read the added comments
