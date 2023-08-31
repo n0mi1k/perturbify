@@ -1,5 +1,5 @@
 # perturbify
-perturbify is a Tensorflow adversarial machine learning attack toolkit to add perturbations and cause image recognition models to misclassify an image. The goal of an adversarial attack is to introduce minumum perturbations to an image to avoid detection while effectively causing a misclassification or significant change in prediction. Such attacks can be performed in a white, grey or black box approach. 
+perturbify is a Tensorflow adversarial machine learning attack toolkit to add perturbations and cause image recognition models to misclassify an image. The goal of an adversarial attack is to introduce minimum perturbations to an image to avoid detection while effectively causing a misclassification or significant change in prediction. Such attacks can be performed in a white, grey or black box approach. 
 
 **NOTE:** In this toolkit, fgsm (targeted) and deepfool attacks have been implemented
 
